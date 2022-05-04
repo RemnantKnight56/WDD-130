@@ -1,0 +1,57 @@
+.gen6_dataList{
+    background-color: pink;
+}
+
+.gen6_dataList dt{
+    font-weight:900;
+}
+
+.gen6_dataList dd{
+    font-style: italic;
+}
+
+.gen6_dataList dt,
+.gen6_dataList dd{
+    color: rgb(225, 0, 143);
+}
+
+.listContainer{
+    width: 90%;
+    margin: 0 auto;
+    background-color: bisque;
+    border: 1px solid blue;
+}
+
+.listContainer ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.listContainer ul li{
+    float: left;
+    padding: 0 25px;
+}
+
+/*Starting table styles */
+.nonsenseTable{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.nonsenseTable, 
+.nonsenseTable td, 
+.nonsenseTable th{
+    border: 1px solid purple;
+    padding: 100px;
+}
+
+.nonsenseTable td, 
+.nonsenseTable th{
+    padding: 5px;
+}
+
+.nonsenseTable tr:nth-child(even) {
+    background-color: yellow;
+}
+/*Ending table styles */
