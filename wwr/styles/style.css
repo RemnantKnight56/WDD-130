@@ -219,6 +219,18 @@ nav {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+#about_us h2{
+    text-align: center;
+}
+
+#about_us p, li{
+    color: white;
+}
+
+#about_us img{
+    width: 100%;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
