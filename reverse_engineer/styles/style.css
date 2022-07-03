@@ -1,0 +1,48 @@
+header {
+    display: grid;
+    background-color: #FFBC42;
+}
+
+body {
+    background-color: #218380;
+}
+
+footer {
+    text-align: center;
+    background-color: #FFBC42;
+}
+
+.logo {
+    grid-column: 1;
+    width: 125px;
+}
+
+.nav_links {
+    grid-column: 2;
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'League Gothic', arial;
+    color: #D81159
+}
+
+p {
+    font-family: 'Spectral', arial;
+    color: white;
+}
+
+.nav_links {
+    display: block;
+    text-align: center;
+}
+
+.Images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
