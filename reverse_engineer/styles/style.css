@@ -1,15 +1,37 @@
 header {
     display: grid;
+    grid-column: 1/4;
     background-color: #FFBC42;
 }
 
 body {
     background-color: #218380;
+    display: grid;
+}
+
+main p, main h2, main p, main a {
+    grid-column: 2;
+}
+
+.img_subA {
+    grid-column: 1;
+    width: 300px;
+    margin-top: 200px;
+    margin-right: 25px;
+}
+
+.img_subB {
+    grid-column: 3;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 25px;
 }
 
 footer {
     text-align: center;
     background-color: #FFBC42;
+    grid-column: 1/4;
+    margin-top: 25px;
 }
 
 .logo {
@@ -19,7 +41,6 @@ footer {
 
 .nav_links {
     grid-column: 2;
-    text-align: center;
     margin-top: 50px;
     font-size: xx-large;
 }
@@ -30,7 +51,7 @@ h1, h2, h3, h4 {
     color: #D81159
 }
 
-p {
+p, li {
     font-family: 'Spectral', arial;
     color: white;
 }
@@ -46,3 +67,42 @@ p {
     margin-right: auto;
     width: 600px;
 }
+
+#library_links {
+    display: grid;
+}
+
+#gcn_links {
+    grid-column: 1;
+    padding: 5px;
+}
+
+#gba_links {
+    grid-column: 2;
+    padding: 5px;
+}
+
+#ps2_links {
+    grid-column: 3;
+    padding: 5px;
+}
+
+#dc_links {
+    grid-column: 4;
+    padding: 5px;
+}
+
+#engine_links {
+    grid-column: 5;
+    padding: 5px;
+}
+
+header a {
+    padding: 0px 50px;
+    word-wrap: normal;
+    display: inline-block;
+  }
+
+ main a{
+    display: block;
+  }
